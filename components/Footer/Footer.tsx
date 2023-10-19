@@ -3,93 +3,149 @@ import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import Logo from "../Logo";
 
 function Footer() {
-	return (
-		<>
-			<div className="bg-gray-50 h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-20">
-				
-				<div className="p-5">
-					<ul>
-						<p className="text-gray-800 font-bold text-2xl pb-4">Product</p>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Stocks
-						</li>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Futures & Options
-						</li>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Mutual Funds
-						</li>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Fixed deposits
-						</li>
-					</ul>
-				</div>
-				<div className="p-5">
-					<ul>
-						<p className="text-gray-800 font-bold text-2xl pb-4">Company</p>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							About
-						</li>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Products
-						</li>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Pricing
-						</li>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Careers
-						</li>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Press & Media
-						</li>
-					</ul>
-				</div>
-				<div className="p-5">
-					<ul>
-						<p className="text-gray-800 font-bold text-2xl pb-4">Support</p>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Contact
-						</li>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Support Portals
-						</li>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							List Of Charges
-						</li>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Downloads & Resources
-						</li>
-						<li className="text-gray-500 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Videos
-						</li>
-					</ul>
-				</div>
-                <div className="p-5 ">
-					<ul>
-						<p className="text-gray-800 font-bold text-3xl pb-6">
-							Stream<span className="text-blue-600">line</span>
-						</p>
-						<div className="flex gap-6 pb-5">
-							<FaInstagram className="text-2xl cursor-pointer hover:text-yellow-600" />
-							<FaTwitter className="text-2xl cursor-pointer hover:text-blue-600" />
-							<FaLinkedin className="text-2xl cursor-pointer hover:text-blue-600" />
-							<FaYoutube className="text-2xl cursor-pointer hover:text-red-600" />
-						</div>
-					</ul>
-				</div>
-			</div>
-			<div className="flex flex-col justify-center items-center text-center  p-5 bg-gray-50">
-				<h1 className=" text-gray-800 font-semibold">
-					© 2021-2022 All rights reserved | Build with   by{" "}
-					<span className="hover:text-blue-600 font-semibold cursor-pointer">
-						streamline{" "}
-					</span>
-				</h1>
-			</div>
-		</>
-	);
+  return (
+    <>
+      <div className=" h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-8" style={{ backgroundColor: "#0B1519" }}>
+        <div className=" ">
+          <ul>
+            <p className="text-white font-bold text-2xl pb-4">Product</p>
+            <li className="text-gray-800 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+              All Products
+            </li>
+            <li className="text-gray-800 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+              Integrations
+            </li>
+ 			<p className="text-white font-bold text-2xl pb-4">Solutions</p>
+
+            <li className="text-gray-800 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+              By Use Case
+            </li>
+            <li className="text-gray-800 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+              By Industry
+            </li>
+          </ul>
+        </div>
+        <div className=" ">
+          <ul>
+            <p className="text-white font-bold text-2xl pb-4">Resources</p>
+            <li className="text-gray-800 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+              Blog
+
+            </li>
+            <li className="text-gray-800 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+              Case Studies
+
+            </li>
+            <li className="text-gray-800 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+              Competitors
+
+            </li>
+            <li className="text-gray-800 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+              Data Sheets
+
+            </li>
+            <li className="text-gray-800  text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+              Glossary
+
+            </li>
+            <li className="text-gray-800  text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+              Infographics
+
+
+            </li>
+            <li className="text-gray-800  text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+              Podcast
+
+
+            </li>
+            <li className="text-gray-800  text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+              Videos
+
+
+            </li>
+            <li className="text-gray-800  text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+              Webinars
+
+
+            </li>
+            <li className="text-gray-800  text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+              Whitepapers
+
+
+            </li>
+          </ul>
+        </div>
+        <div className=" ">
+          <ul>
+            <p className="text-white font-bold text-2xl pb-4">Customers</p>
+            <li className="text-gray-800 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+              Contact
+            </li>
+            <li className="text-gray-800 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+              Support Portals
+            </li>
+            <li className="text-gray-800 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+              List Of Charges
+            </li>
+            <li className="text-gray-800 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+              Downloads & Resources
+            </li>
+           <p className="text-white font-bold text-2xl pb-4">Partners</p>
+
+            <li className="text-gray-800 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+              Implementation Packages
+            </li>
+            <li className="text-gray-800 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+              Careers
+            </li>
+            <li className="text-gray-800 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+              Contact us
+            </li>
+            <li className="text-gray-800 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+              Lift Media
+            </li>
+          </ul>
+        </div>
+        <div className="">
+          <ul>
+			{/* <Logo /> */}
+            <p className="text-gray-800  font-bold text-3xl pb-6">
+                 <span className="text-blue-600 p-6"><Logo /> </span>
+            </p>
+            <div className="flex gap-6 pb-5">
+              <FaInstagram className="text-2xl cursor-pointer hover:text-yellow-600" />
+              <FaTwitter className="text-2xl cursor-pointer hover:text-blue-600" />
+              <FaLinkedin className="text-2xl cursor-pointer hover:text-blue-600" />
+              <FaYoutube className="text-2xl cursor-pointer hover:text-red-600" />
+            </div>
+          </ul>
+        </div>
+      </div>
+      <div className="flex flex-col md:flex-row justify-center items-center text-center p-5 bg-gray-50" style={{ borderTop: "1px solid #474017", backgroundColor: "#0B1519" }}>
+  <h1 className="text-gray-800 font-semibold md:mr-auto">
+    © 2023 All rights reserved{" "}
+    <span className="hover:text-blue-600 font-semibold cursor-pointer">
+      IRDL{" "}
+    </span>
+  </h1>
+  <div className="text-white flex flex-col md:flex-row justify-center items-center px-10	  ">
+    <span className="hover:text-blue-600 font-semibold cursor-pointer px-5">
+      Terms{" "}
+    </span>
+    <span className="hover:text-blue-600 font-semibold cursor-pointer px-5">
+      Privacy{" "}
+    </span>
+    <span className="hover:text-blue-600 font-semibold cursor-pointer px-5">
+      Cookies{" "}
+    </span>
+  </div>
+</div>
+
+    </>
+  );
 }
 
 export default Footer;
