@@ -24,8 +24,10 @@ const Banner = () => {
               Identities & Access, Intelligently Secured
             </h1>
             <p className="text-base md:text-lg mb-4">
-              Identities and their privileges are at the heart of every attack, and identity threats are hard to detect and increasingly complex. But complexity shouldn't mean compromise.
-            </p>
+  Identities and their privileges are at the heart of every attack, and identity threats are hard to detect and increasingly complex. But complexity shouldn&apos;t mean compromise.
+</p>
+
+
             <a
               href="#"
               className="bg-blue-900 text-white py-2 px-4 rounded-full text-base md:text-lg hover:bg-blue-600 transition duration-300"
