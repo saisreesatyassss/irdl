@@ -2,7 +2,7 @@ import React from 'react';
 
 const DetailsInputPage = () => {
   return (
-    <section id="detailsinput" className="text-white p-4 min-h-screen bg-blue-700 flex">
+    <section id="DetailsInputPage" className="text-white p-4 min-h-screen bg-blue-700 flex">
       <div className="w-full lg:w-1/2 flex flex-col justify-center items-start text-left">
         <h1 className="font-waterfall text-4xl lg:text-5xl p-4 text-white font-bold">
           Accelerate Your Security Strategy and Success

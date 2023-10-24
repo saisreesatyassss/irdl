@@ -6,31 +6,28 @@ import Main from './Main/page';
 import Products from './Products/pages';
 import Faq from '@/components/Faq/Faq';
 import DetailsInputPage from '@/components/DetailsInputPage/DetailsInputPage';
-
+import Banner from '@/components/Banner/Banner';
+import SecurityCards from '@/app/SecurityCards/SecurityCards';
+ 
 export default function Home() {
   return (
     <div>
-      <Main/>
+      <Main/>       
       <Products/>
-     {/* <section
-  id="about"
-  className="text-white h-screen bg-transparent text-center flex"
->
-  <h1 className="m-auto font-waterfall text-7xl text-purple-600 font-bold">
-    About
-  </h1>
-</section>  */} 
-      <section
+      <SecurityCards/>
+      <Banner/>
+      <DetailsInputPage/>
+      <Faq/>
+      <Footer />
+      {/* <section
         id="contact"
         className="text-white h-screen bg-black  text-center flex"
       >
         <h1 className="m-auto font-waterfall text-7xl text-purple-600 font-bold">
           Contact{' '}
         </h1>
-      </section>
-       <DetailsInputPage/>
-      <Faq/>
-      <Footer />
+      </section> */}
+       
     </div>
   );
 }

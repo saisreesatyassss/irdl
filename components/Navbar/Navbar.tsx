@@ -46,47 +46,47 @@ function NavBar() {
               }`}
             > 
               <ul className="h-screen md:h-auto items-center justify-center md:flex gap-2">
-                <li className="  bg-black  text-white py-1.5 px-3 text-center border-b-2 rounded-xl md:border-b-0   hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
+                <li className="  bg-black  text-white py-1.5 px-3 text-center border-b-2 rounded-xl md:border-b-0   hover:bg-blue-900  border-blue-900  md:hover:text-blue-600 md:hover:bg-transparent">
                   <Link href="#Main" onClick={() => setNavbar(!navbar)}>
                     Home
                   </Link>
                 </li>
-                <li className="  bg-black  text-white py-1.5 px-3 text-center border-b-2 rounded-xl md:border-b-0   hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
+                <li className="  bg-black  text-white py-1.5 px-3 text-center border-b-2 rounded-xl md:border-b-0   hover:bg-blue-900  border-blue-900  md:hover:text-blue-600 md:hover:bg-transparent">
                   <Link href="#Products" onClick={() => setNavbar(!navbar)}>
                     Products
                   </Link>
                 </li>
-                <li className="  bg-black  text-white py-1.5 px-3 text-center border-b-2 rounded-xl md:border-b-0   hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
-                  <Link href="#Solutions" onClick={() => setNavbar(!navbar)}>
+                <li className="  bg-black  text-white py-1.5 px-3 text-center border-b-2 rounded-xl md:border-b-0   hover:bg-blue-900  border-blue-900  md:hover:text-blue-600 md:hover:bg-transparent">
+                  <Link href="#SecurityCards" onClick={() => setNavbar(!navbar)}>
                     Solutions
                   </Link>
                 </li>
-                <li className="  bg-black  text-white py-1.5 px-3 text-center border-b-2 rounded-xl md:border-b-0   hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
+                <li className="  bg-black  text-white py-1.5 px-3 text-center border-b-2 rounded-xl md:border-b-0   hover:bg-blue-900  border-blue-900  md:hover:text-blue-600 md:hover:bg-transparent">
                   <Link href="#Main" onClick={() => setNavbar(!navbar)}>
                     Resources
                   </Link>
                 </li>
-                <li className="  bg-black  text-white py-1.5 px-3 text-center border-b-2 rounded-xl md:border-b-0   hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
-                  <Link href="#Main" onClick={() => setNavbar(!navbar)}>
+                <li className="  bg-black  text-white py-1.5 px-3 text-center border-b-2 rounded-xl md:border-b-0   hover:bg-blue-900  border-blue-900  md:hover:text-blue-600 md:hover:bg-transparent">
+                  <Link href="#DetailsInputPage" onClick={() => setNavbar(!navbar)}>
                     Customers
                   </Link>
                 </li>
-                <li className="  bg-black  text-white py-1.5 px-3 text-center border-b-2 rounded-xl md:border-b-0   hover:bg-purple-900  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
+                <li className="  bg-black  text-white py-1.5 px-3 text-center border-b-2 rounded-xl md:border-b-0   hover:bg-blue-900  border-blue-900  md:hover:text-blue-600 md:hover:bg-transparent">
                   <Link href="#Main" onClick={() => setNavbar(!navbar)}>
                     Partners
                   </Link>
                 </li>
-                <li className="bg-black   text-white  py-1.5 px-3 text-center  border-b-2 rounded-xl  md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent ">
-                  <Link href="#blog" onClick={() => setNavbar(!navbar)}>
+                <li className="bg-black   text-white  py-1.5 px-3 text-center  border-b-2 rounded-xl  md:border-b-0  hover:bg-blue-600  border-blue-900  md:hover:text-blue-600 md:hover:bg-transparent ">
+                  <Link href="#Faq" onClick={() => setNavbar(!navbar)}>
                     About
                   </Link>   
                 </li>
-                {/* <li className="bg-black   text-white py-1.5 px-3 text-center  border-b-2 rounded-xl  md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent ">
+                {/* <li className="bg-black   text-white py-1.5 px-3 text-center  border-b-2 rounded-xl  md:border-b-0  hover:bg-blue-600  border-blue-900  md:hover:text-blue-600 md:hover:bg-transparent ">
                   <Link href="#contact" onClick={() => setNavbar(!navbar)}>
                     Watch Demo
                   </Link>
                 </li>
-                <li className="bg-black  text-white py-1.5 px-3 text-center  border-b-2 rounded-xl  md:border-b-0  hover:bg-purple-600  border-purple-900  md:hover:text-purple-600 md:hover:bg-transparent">
+                <li className="bg-black  text-white py-1.5 px-3 text-center  border-b-2 rounded-xl  md:border-b-0  hover:bg-blue-600  border-blue-900  md:hover:text-blue-600 md:hover:bg-transparent">
                   <Link href="#projects" onClick={() => setNavbar(!navbar)}>
                     Contact Sales
                   </Link>

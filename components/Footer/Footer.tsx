@@ -8,7 +8,7 @@ import Logo from "../Logo";
 function Footer() {
   return (
     <>
-      <div className=" h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-8" style={{ backgroundColor: "#0B1519" }}>
+      <div id="Footer" className=" h-1/2 w-full flex md:flex-row flex-col justify-around items-start p-8" style={{ backgroundColor: "#0B1519" }}>
         <div className=" ">
           <ul>
             <p className="text-white font-bold text-2xl pb-4">Product</p>

@@ -15,7 +15,7 @@ const Accordion: React.FC<AccordionProps> = ({ title, content }) => {
   };
 
   return (
-    <div className=" border rounded-lg my-8 p-4 max-w-screen-xl shadow-md">
+    <div id="Faq" className=" border rounded-lg my-8 p-4 max-w-screen-xl shadow-md">
       <div className="flex justify-between items-center cursor-pointer max-w-screen-xl" onClick={toggleAccordion}>
         <h2 className="text-xl font-semibold">{title}</h2>
         <svg
