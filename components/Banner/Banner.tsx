@@ -38,9 +38,10 @@ const Banner = () => {
           {/* Right Section (Image) */}
           <div className="relative w-full md:w-auto">
             <Image
-              src="Banner.png"
+              src="/Banner.png"
               alt="Banner Image"
-              height={150}
+              height={400}
+              width={400}
               ref={imageRef}
               className="transition-transform transform duration-300 hover:rotate-360"
               onMouseEnter={rotateImage}

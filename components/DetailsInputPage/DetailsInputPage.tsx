@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import Detailsinput from '../public/Detailsinput.png'
+import Detailsinputimg from '/public/Detailsinput.png'
 
 const DetailsInputPage = () => {
   return (
@@ -72,7 +72,7 @@ const DetailsInputPage = () => {
       <div className="hidden lg:block lg:w-1/2">
      
           <Image
-          src={Detailsinput}
+          src={Detailsinputimg}
           alt="Your Image"
           className="object-cover"
           width={500} // Adjust the width and height attributes as needed

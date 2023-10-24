@@ -38,7 +38,7 @@ const posts = [
     {
         title: "Password Safe",
         desc: "Gain visibility & control over privileged credentials and secrets",
-        img: "Product1.png",
+        img: "/Product1.png",
         authorLogo: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
         authorName: "abc",
         date: "Jan 4 2022",
@@ -47,7 +47,7 @@ const posts = [
     {
         title: "Privileged Remote Access",
         desc: "Manage & audit employee and vendor remote access",
-        img: "Product2.png",
+        img: "/Product2.png",
         authorLogo: "https://api.uifaces.co/our-content/donated/FJkauyEa.jpg",
         authorName: "Micheal",
         date: "Jan 4 2022",
@@ -56,7 +56,7 @@ const posts = [
     {
         title: "Total PASM Solution",
         desc: "Get the best privileged credential & session management capabilities at an incredible value",
-        img: "Product3.png",
+        img: "/Product3.png",
         authorLogo: "https://randomuser.me/api/portraits/men/46.jpg",
         authorName: "Luis",
         date: "Jan 4 2022",
@@ -65,7 +65,7 @@ const posts = [
     {
         title: "Remote Support",
         desc: "Securely access & support any device or system in the world",
-        img: "Product4.png",
+        img: "/Product4.png",
         authorLogo: "https://api.uifaces.co/our-content/donated/KtCFjlD4.jpg",
         authorName: "Lourin",
         date: "Jan 4 2022",
@@ -74,7 +74,7 @@ const posts = [
     {
         title: "Windows/Mac",
         desc: "Securely access & support any device or system in the world",
-        img: "Product5.png",
+        img: "/Product5.png",
         authorLogo: "https://api.uifaces.co/our-content/donated/KtCFjlD4.jpg",
         authorName: "Lourin",
         date: "Jan 4 2022",
@@ -83,7 +83,7 @@ const posts = [
     {
         title: "Unix/Linux",
         desc: "Securely access & support any device or system in the world",
-        img: "Product6.png",
+        img: "/Product6.png",
         authorLogo: "https://api.uifaces.co/our-content/donated/KtCFjlD4.jpg",
         authorName: "Lourin",
         date: "Jan 4 2022",
@@ -92,7 +92,7 @@ const posts = [
     {
         title: "Active Directory Bridge",
         desc: "Securely access & support any device or system in the world",
-        img: "Product7.png",
+        img: "/Product7.png",
         authorLogo: "https://api.uifaces.co/our-content/donated/KtCFjlD4.jpg",
         authorName: "Lourin",
         date: "Jan 4 2022",
@@ -101,7 +101,7 @@ const posts = [
     {
         title: "Identity Security Insights",
         desc: "Get unparalleled visibility into identities, accounts, and privileged access — all in one interface",
-        img: "Product8.png",
+        img: "/Product8.png",
         authorLogo: "https://api.uifaces.co/our-content/donated/KtCFjlD4.jpg",
         authorName: "Lourin",
         date: "Jan 4 2022",
@@ -134,6 +134,8 @@ Products that are favored by customers. Updated every hour.        </p>
                 src={item.img}
                 loading="lazy"
                 alt={item.title}
+                width={500}
+                height={500}
                 className="w-full h-48 px-2 rounded-2xl"
               />
               <div className="pt-3 ml-4 mr-2 mb-3">
