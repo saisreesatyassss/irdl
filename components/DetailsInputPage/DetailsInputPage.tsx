@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const DetailsInputPage = () => {
   return (
@@ -68,7 +69,7 @@ const DetailsInputPage = () => {
         </div>
       </div>
       <div className="hidden lg:block lg:w-1/2">
-        <img
+        <Image
           src="Detailsinput.png"
           alt="Your Image"
           className="object-cover"

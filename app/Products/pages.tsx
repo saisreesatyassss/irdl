@@ -32,6 +32,7 @@
 // export default Products;
 
 import React from 'react';
+import Image from 'next/image';
 
 const posts = [
     {
@@ -129,7 +130,7 @@ Products that are favored by customers. Updated every hour.        </p>
               </div>
               
             <a href={item.href}>
-              <img
+              <Image
                 src={item.img}
                 loading="lazy"
                 alt={item.title}

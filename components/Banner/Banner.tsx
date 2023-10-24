@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 
 const Banner = () => {
   const imageRef = React.createRef<HTMLImageElement>();
@@ -35,7 +36,7 @@ const Banner = () => {
 
           {/* Right Section (Image) */}
           <div className="relative w-full md:w-auto">
-            <img
+            <Image
               src="Banner.png"
               alt="Banner Image"
               height={150}
