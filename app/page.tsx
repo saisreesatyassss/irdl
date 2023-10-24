@@ -19,14 +19,7 @@ export default function Home() {
       <DetailsInputPage/>
       <Faq/>
       <Footer />
-      {/* <section
-        id="contact"
-        className="text-white h-screen bg-black  text-center flex"
-      >
-        <h1 className="m-auto font-waterfall text-7xl text-purple-600 font-bold">
-          Contact{' '}
-        </h1>
-      </section> */}
+     
        
     </div>
   );
