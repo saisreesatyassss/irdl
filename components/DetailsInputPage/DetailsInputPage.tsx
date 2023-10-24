@@ -69,10 +69,13 @@ const DetailsInputPage = () => {
         </div>
       </div>
       <div className="hidden lg:block lg:w-1/2">
-        <Image
+     
+          <Image
           src="Detailsinput.png"
           alt="Your Image"
           className="object-cover"
+          width={500} // Adjust the width and height attributes as needed
+          height={300}
         />
       </div>
     </section>

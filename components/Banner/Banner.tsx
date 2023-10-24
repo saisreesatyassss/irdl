@@ -15,7 +15,7 @@ const Banner = () => {
   };
 
   return (
-    <section  id="about" className="bg-white min-h-screen">
+    <section id="about" className="bg-white min-h-screen">
       <section className="bg-black text-white p-4 md:p-8 m-8 md:m-16 md:my-0 rounded-2xl">
         <div className="container mx-auto flex flex-col md:flex-row items-center">
           {/* Left Section */}
@@ -24,10 +24,8 @@ const Banner = () => {
               Identities & Access, Intelligently Secured
             </h1>
             <p className="text-base md:text-lg mb-4">
-  Identities and their privileges are at the heart of every attack, and identity threats are hard to detect and increasingly complex. But complexity shouldn&apos;t mean compromise.
-</p>
-
-
+              Identities and their privileges are at the heart of every attack, and identity threats are hard to detect and increasingly complex. But complexity shouldn&apos;t mean compromise.
+            </p>
             <a
               href="#"
               className="bg-blue-900 text-white py-2 px-4 rounded-full text-base md:text-lg hover:bg-blue-600 transition duration-300"
