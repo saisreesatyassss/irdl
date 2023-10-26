@@ -8,6 +8,7 @@ import Faq from '@/components/Faq/Faq';
 import DetailsInputPage from '@/components/DetailsInputPage/DetailsInputPage';
 import Banner from '@/components/Banner/Banner';
 import SecurityCards from '@/app/SecurityCards/SecurityCards';
+import Testimonial from '@/components/Testimonial/Testimonial';
  
 export default function Home() {
   return (
@@ -16,11 +17,11 @@ export default function Home() {
       <Products/>
       <SecurityCards/>
       <Banner/>
-      <DetailsInputPage/>
+      <Testimonial />
       <Faq/>
+      <DetailsInputPage/> 
       <Footer />
      
-       
     </div>
   );
 }
