@@ -4,6 +4,8 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import Logo from "../Logo";
+import Link from "next/link";
+import Image from 'next/image';
 
 function Footer() {
   return (
@@ -110,12 +112,19 @@ function Footer() {
           </ul>
         </div>
         <div className="">
-          <ul>
-			{/* <Logo /> */}
-            <p className="text-gray-800  font-bold text-3xl pb-6">
-                 <span className="text-blue-600 p-6"><Logo /> </span>
-            </p>
-            <div className="flex gap-6 pb-5">
+          <ul> 
+            
+             <Link href="/"> 
+                   {/* <Logo/> */}
+                    <Image
+                      src="/logo.svg"
+                      width={150}
+                      height={100}
+                      alt="Logo"
+                      className="focus:border-none active:border-none bg-white rounded-3xl "
+                    /> 
+              </Link>
+            <div className="flex gap-6 pb-5 py-10">
               <FaInstagram className="text-2xl cursor-pointer hover:text-yellow-600" />
               <FaTwitter className="text-2xl cursor-pointer hover:text-blue-600" />
               <FaLinkedin className="text-2xl cursor-pointer hover:text-blue-600" />

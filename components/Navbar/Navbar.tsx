@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import Logo from '../Logo';
+import { button } from '@nextui-org/react';
 
 function NavBar() {
   const [navbar, setNavbar] = useState(false);
@@ -13,10 +14,16 @@ function NavBar() {
       <nav className="w-full bg-transparent fixed top-0 left-0 right-0 z-10">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
-            <div className="flex items-center justify-between py-3 md:py-5 md:block">
-              {/* LOGO */}
-              <Link href="/">
-                <h2 className="text-2xl text-white font-bold font-serif "> <Logo /></h2>
+            <div className="flex items-center justify-between py-3 md:py-0 md:block"> 
+              <Link href="/"> 
+                   {/* <Logo/> */}
+                    <Image
+                      src="/logo.svg"
+                      width={150}
+                      height={100}
+                      alt="Logo"
+                      className="focus:border-none active:border-none"
+                    /> 
               </Link>
               {/* HAMBURGER BUTTON FOR MOBILE */}
               <div className="md:hidden">
@@ -31,7 +38,7 @@ function NavBar() {
                       src="/hamburger-menu.svg"
                       width={30}
                       height={30}
-                      alt="logo"
+                      alt="hamburger-menu"
                       className="focus:border-none active:border-none"
                     />
                   )}
